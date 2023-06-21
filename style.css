@@ -1,0 +1,35 @@
+#container {
+  width: 1000px;
+  height: 1000px;
+  margin: auto;
+  text-align: center;
+}
+
+#trigger {
+  margin: 50px auto;
+  padding: 10px 20px;
+  border-radius: 6px;
+  color: aliceblue;
+  background-color: black;
+  font-size: 18px;
+  transition: all 300ms;
+}
+
+#trigger:hover {
+  background-color: rgb(241, 241, 170);
+  color: black;
+}
+
+.bulb-off {
+  width: 500px;
+  height: 700px;
+  background: url('off.png') no-repeat;
+  margin: auto;
+}
+
+.bulb-on {
+  width: 500px;
+  height: 700px;
+  background: url('on.png') no-repeat;
+  margin: auto;
+}
